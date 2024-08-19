@@ -2,9 +2,6 @@
 {
     public interface IAnonymousCampingDataContext
     {
-        // Moeten de id's uit alle put methods gehaald worden??????
-        // Misschien een owner met contact info toevoegen aan elke campingGround (en spot?)
-
         // User methods --------------------------------------------------------------------------------------------------------------------------
         IEnumerable<User> GetUsers();
         User GetUserById(int id);
